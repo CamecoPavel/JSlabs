@@ -139,7 +139,7 @@ const transactions = JSON.parse(transactionsData);
 const analyzer = new TransactionAnalyzer(transactions);
 
 // Test methods
-console.log("Unique Transaction Types:", analyzer.getUniqueTransactionTypes('debit'));
+console.log("Unique Transaction Types:", analyzer.getUniqueTransactionTypes());
 /*console.log("Total Amount:", analyzer.calculateTotalAmount());
 console.log("Total Amount in 2019:", analyzer.calculateTotalAmountByDate(2019));
 console.log("Debit Transactions:", analyzer.getTransactionsByType('debit'));

@@ -3,7 +3,7 @@
     "transaction_id": "1",
     "transaction_date": "2019-01-01",
     "transaction_amount": 100.00,
-    "transaction_type": "debit",
+    "transaction_type": "qqq",
     "transaction_description": "Payment for groceries",
     "merchant_name": "SuperMart",
     "card_type": "Visa"
