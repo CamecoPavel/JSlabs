@@ -140,9 +140,9 @@ const analyzer = new TransactionAnalyzer(transactions);
 
 // Test methods
 console.log("Unique Transaction Types:", analyzer.getUniqueTransactionTypes());
-/*console.log("Total Amount:", analyzer.calculateTotalAmount());
-console.log("Total Amount in 2019:", analyzer.calculateTotalAmountByDate(2019));
-console.log("Debit Transactions:", analyzer.getTransactionsByType('debit'));
+console.log("Total Amount:", analyzer.calculateTotalAmount());
+console.log("Total Amount in 2019:", analyzer.calculateTotalAmountByDate(2019, 02, 02));
+/*console.log("Debit Transactions:", analyzer.getTransactionsByType('debit'));
 console.log("Transactions in Date Range:", analyzer.getTransactionsInDateRange(new Date('2019-01-01'), new Date('2019-12-31')));
 console.log("Transactions by Merchant:", analyzer.getTransactionsByMerchant('SuperMart'));
 console.log("Average Transaction Amount:", analyzer.calculateAverageTransactionAmount());
